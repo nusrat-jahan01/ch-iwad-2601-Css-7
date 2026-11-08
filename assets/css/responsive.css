@@ -1,0 +1,71 @@
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  nav {
+    padding: 15px;
+  }
+  nav ul,
+  nav .btns {
+    display: none;
+  }
+  nav .hamburger-menu {
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: block;
+  }
+  
+  #hero{
+    padding: 30px 20px;
+  }
+  #hero h2{
+    font-size: 40px;
+  }
+  #hero .content{
+  width:100%;
+}
+ #hero .image img{
+    width: 100%;
+  }
+  
+    .community-cards,
+    .helping-cards,
+    .blog-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .community-card,
+    .helping-card,
+    .blog-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #pixelgrade .row,
+    #customer .row {
+        flex-direction: column;
+    }
+
+    .pixelgrade-img img,
+    .customer-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .customer-logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .customer-logos img {
+        max-width: 50px;
+    }
+}
+  
+  
+
+  
+
